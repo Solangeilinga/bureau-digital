@@ -4,27 +4,37 @@ import { ShoppingBag } from 'lucide-react';
 const Shop = ({ isVisible }) => {
     const products = [
         {
-            title: "Lancer son business en ligne",
-            description: "Document pour les débutants sur comment démarrer une activité rentable sur internet( TikTok, WhatsApp...) sans budget.",
-            price: "1000 Francs",
-            paypalLink: "https://payhip.com/b/plbDu",
-            orangeMoneyLink: "https://wa.me/+22661645069?text=Bonjour%2C%20je%20veux%20payer%20par%20Orange%20Money%20pour%20le%20planning"
+            title: "Guide Marketing Digital",
+            description: "Construisez et valorisez votre image professionnelle sur Internet pour vous démarquer et attirer des opportunités.",
+            price: "2000 Francs",
+            paypalLink: "https://payhip.com/b/xeSWr",
+            orangeMoneyLink: "https://wa.me/+22661645069?text=Bonjour%2C%20je%20veux%20payer%20par%20Orange%20Money%20pour%20le%20planning",
+            image: "/assets/images/marketing.png"
         },
-
         {
-            title: "Ebook: L'amour, voyage au cœur des émotions",
+            title: "Créer son Personal Branding en Ligne",
+            description: "Document pour les débutants sur comment démarrer une activité rentable sur internet (TikTok, WhatsApp...) sans budget.",
+            price: "2000 Francs",
+            paypalLink: "https://payhip.com/b/JQ6Vm",
+            orangeMoneyLink: "https://wa.me/+22661645069?text=Bonjour%2C%20je%20veux%20payer%20par%20Orange%20Money%20pour%20le%20planning",
+            image: "/assets/images/personal-branding.png"
+        },
+        {
+            title: "Gérer son temps comme un CEO",
             description: "Cet ebook est un voyage à travers les hauts et les bas des relations, les mythes et réalités de l'amour, et les clés pour vivre l'amour dans sa forme la plus authentique et épanouissante.",
-            price: "500 Francs",
-            paypalLink: "https://payhip.com/b/ciBa3",
-            orangeMoneyLink: "https://wa.me/+22661645069?text=Bonjour%2C%20je%20veux%20payer%20par%20Orange%20Money%20pour%20l'%20ebook"
+            price: "1200 Francs",
+            paypalLink: "https://payhip.com/b/BU5Yd",
+            orangeMoneyLink: "https://wa.me/+22661645069?text=Bonjour%2C%20je%20veux%20payer%20par%20Orange%20Money%20pour%20l'%20ebook",
+            image: "/assets/images/ceo.png"
         },
         {
-            title: "10 idées de créations à vendre avec peu de moyens",
-            description: "Tu veux te lancer dans une petite activité rentable sans gros budget ? Voici 10 idées créatives simples et économiques pour commencer tout de suite.",
-            price: "500 Francs",
-            paypalLink: "https://payhip.com/b/BCIQN",
-            orangeMoneyLink: "https://wa.me/+22661645069?text=Bonjour%2C%20je%20veux%20payer%20par%20Orange%20Money%20pour%20le%20planning"
-        },
+            title: " LinkedIn pour Étudiants : 100% Pro",
+            description: "Apprenez à optimiser votre profil, réseauter même sans expérience et publier des posts engageants pour booster votre visibilité professionnelle.",
+            price: "1200 Francs",
+            paypalLink: "https://payhip.com/b/sgdBr",
+            orangeMoneyLink: "https://wa.me/+22661645069?text=Bonjour%2C%20je%20veux%20payer%20par%20Orange%20Money%20pour%20le%20planning",
+            image: "/assets/images/linkedin.png"
+        }
     ];
 
     return (
@@ -43,6 +53,13 @@ const Shop = ({ isVisible }) => {
                             key={index}
                             className="bg-gradient-to-br from-pink-50 to-rose-50 rounded-3xl p-8 shadow-lg hover:shadow-2xl transform hover:scale-105 transition-all duration-500 border border-pink-100"
                         >
+                            {/* Image du produit */}
+                            <img
+                                src={item.image}
+                                alt={item.title}
+                                className="w-full h-48 object-cover rounded-2xl mb-4"
+                            />
+
                             <div className="flex items-center justify-between mb-4">
                                 <h3 className="text-xl font-bold text-pink-600">{item.title}</h3>
                                 <span className="bg-gradient-to-r from-pink-500 to-rose-500 text-white px-4 py-2 rounded-full font-bold">
