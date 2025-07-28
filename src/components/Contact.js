@@ -70,6 +70,7 @@ const Contact = ({ isVisible }) => (
                     <Instagram className="w-5 h-5" />
                     <span>Instagram</span>
                 </a>
+                <p>&copy; 2025 Bureau Digital. Tous droits réservés.</p>
             </div>
         </div>
     </section>
