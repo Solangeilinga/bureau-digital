@@ -13,8 +13,8 @@ const Services = ({ isVisible }) => {
             image: "/assets/images/community.png"
         },
         {
-            title: "Conception de supports visuels",
-            description: "Affiches, flyers, visuels réseaux sociaux… Des designs qui captent l'attention et parlent à votre public.",
+            title: "Stratégie & Planification Réseaux Sociaux",
+            description: "Calendrier éditorial personnalisé, planification des publications,stratégie marketing",
             image: "/assets/images/design.png"
         },
         {
