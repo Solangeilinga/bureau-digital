@@ -28,7 +28,7 @@ const Services = ({ isVisible }) => {
         <section id="services" className={`py-20 bg-gradient-to-br from-pink-50 to-purple-50 transform transition-all duration-1000 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'}`}>
             <div className="max-w-6xl mx-auto px-4">
                 <div className="text-center mb-16">
-                    <h2 className="text-4xl font-bold text-pink-600 mb-4">Mes Services</h2>
+                    <h2 className="text-4xl font-bold text-pink-600 mb-4">Nos Services</h2>
                     <p className="text-lg text-gray-600">Des solutions créatives pour tous vos besoins digitaux</p>
                 </div>
                 <div className="grid md:grid-cols-2 lg:grid-cols-2 gap-8">

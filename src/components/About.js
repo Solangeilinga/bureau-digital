@@ -13,7 +13,7 @@ const About = ({ isVisible }) => (
                     Bienvenue chez <span className="font-semibold text-pink-600">Bureau Digital</span>, un espace créatif dédié à booster ta présence digitale et visuelle !
                 </p>
                 <p className="text-lg text-gray-700 leading-relaxed mb-8">
-                    Passionnés par la communication moderne, nous proposons :
+                    Passionnés par la communication digitale, nous proposons :
                 </p>
                 <div className="grid md:grid-cols-3 gap-6">
                     {[
