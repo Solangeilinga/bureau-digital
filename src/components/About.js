@@ -17,9 +17,9 @@ const About = ({ isVisible }) => (
                 </p>
                 <div className="grid md:grid-cols-3 gap-6">
                     {[
+                        { icon: Users, text: "Des services personnalisés en community management" },
                         { icon: Palette, text: "Des visuels qui captent l'œil (flyers, affiches, visuels réseaux…)" },
-                        { icon: BookOpen, text: "Des contenus utiles : tutoriels, e-books, fiches pratiques" },
-                        { icon: Users, text: "Des services personnalisés en community management" }
+                        { icon: BookOpen, text: "Des contenus utiles : tutoriels, e-books, fiches pratiques" }
                     ].map((item, index) => (
                         <div key={index} className="bg-white p-6 rounded-2xl shadow-md hover:shadow-lg transition-all duration-300 hover:scale-105">
                             <item.icon className="w-8 h-8 text-pink-500 mx-auto mb-4" />
