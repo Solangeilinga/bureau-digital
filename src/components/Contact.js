@@ -42,7 +42,7 @@ const Contact = ({ isVisible }) => (
                 </a>
 
                 <a
-                    href="https://tiktok.com/@resona10"
+                    href="https://tiktok.com/@bureaudigital"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="flex items-center space-x-2 bg-white bg-opacity-20 hover:bg-opacity-30 px-6 py-3 rounded-full transition-all duration-300 hover:scale-105"
@@ -52,7 +52,7 @@ const Contact = ({ isVisible }) => (
                 </a>
 
                 <a
-                    href="https://facebook.com/tonprofil"
+                    href="https://www.facebook.com/profile.php?id=61575307012557"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="flex items-center space-x-2 bg-white bg-opacity-20 hover:bg-opacity-30 px-6 py-3 rounded-full transition-all duration-300 hover:scale-105"
@@ -62,7 +62,7 @@ const Contact = ({ isVisible }) => (
                 </a>
 
                 <a
-                    href="https://instagram.com/tonprofil"
+                    href="https://www.instagram.com/sbureaudigital?igsh=cmd5amNwamhsczE1"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="flex items-center space-x-2 bg-white bg-opacity-20 hover:bg-opacity-30 px-6 py-3 rounded-full transition-all duration-300 hover:scale-105"
