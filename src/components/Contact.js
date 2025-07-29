@@ -33,6 +33,10 @@ const Contact = ({ isVisible }) => (
 
             {/* Autres réseaux */}
             <div className="flex justify-center flex-wrap gap-4">
+                <p className="text-xl mb-8 opacity-90">
+                    Retrouve-nous sur tous nos réseaux en un clic, juste en bas 👇 📲
+                </p>
+
                 <a
                     href="mailto:e47071012@gmail.com"
                     className="flex items-center space-x-2 bg-white bg-opacity-20 hover:bg-opacity-30 px-6 py-3 rounded-full transition-all duration-300 hover:scale-105"
