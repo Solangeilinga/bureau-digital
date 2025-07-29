@@ -5,27 +5,11 @@ const Shop = ({ isVisible }) => {
     const products = [
         {
             title: "Guide Marketing Digital",
-            description: "Construisez et valorisez votre image professionnelle sur Internet pour vous démarquer et attirer des opportunités.",
+            description: "Découvrez des stratégies simples pour lancer votre présence en ligne grâce au SEO, aux réseaux sociaux et à la publicité digitale.",
             price: "2000 Francs",
             paypalLink: "https://payhip.com/b/xeSWr",
             orangeMoneyLink: "https://wa.me/+22661645069?text=Bonjour%2C%20je%20veux%20payer%20par%20Orange%20Money%20pour%20le%20planning",
             image: "/assets/images/marketing.png"
-        },
-        {
-            title: "Créer son Personal Branding en Ligne",
-            description: "Document pour les débutants sur comment démarrer une activité rentable sur internet (TikTok, WhatsApp...) sans budget.",
-            price: "2000 Francs",
-            paypalLink: "https://payhip.com/b/JQ6Vm",
-            orangeMoneyLink: "https://wa.me/+22661645069?text=Bonjour%2C%20je%20veux%20payer%20par%20Orange%20Money%20pour%20le%20planning",
-            image: "/assets/images/personal-branding.png"
-        },
-        {
-            title: "Gérer son temps comme un CEO",
-            description: "Cet ebook est un voyage à travers les hauts et les bas des relations, les mythes et réalités de l'amour, et les clés pour vivre l'amour dans sa forme la plus authentique et épanouissante.",
-            price: "1200 Francs",
-            paypalLink: "https://payhip.com/b/BU5Yd",
-            orangeMoneyLink: "https://wa.me/+22661645069?text=Bonjour%2C%20je%20veux%20payer%20par%20Orange%20Money%20pour%20l'%20ebook",
-            image: "/assets/images/ceo.png"
         },
         {
             title: " LinkedIn pour Étudiants : 100% Pro",
@@ -34,7 +18,24 @@ const Shop = ({ isVisible }) => {
             paypalLink: "https://payhip.com/b/sgdBr",
             orangeMoneyLink: "https://wa.me/+22661645069?text=Bonjour%2C%20je%20veux%20payer%20par%20Orange%20Money%20pour%20le%20planning",
             image: "/assets/images/linkedin.png"
-        }
+        },
+        {
+            title: "Créer son Personal Branding en Ligne",
+            description: "Construisez et valorisez votre image professionnelle sur Internet pour vous démarquer et attirer des opportunités.",
+            price: "2000 Francs",
+            paypalLink: "https://payhip.com/b/JQ6Vm",
+            orangeMoneyLink: "https://wa.me/+22661645069?text=Bonjour%2C%20je%20veux%20payer%20par%20Orange%20Money%20pour%20le%20planning",
+            image: "/assets/images/personal-branding.png"
+        },
+        {
+            title: "Gérer son temps comme un CEO",
+            description: "Maîtrisez votre organisation avec différentes méthodes pour planifier efficacement.",
+            price: "1200 Francs",
+            paypalLink: "https://payhip.com/b/BU5Yd",
+            orangeMoneyLink: "https://wa.me/+22661645069?text=Bonjour%2C%20je%20veux%20payer%20par%20Orange%20Money%20pour%20l'%20ebook",
+            image: "/assets/images/ceo.png"
+        },
+
     ];
 
     return (
