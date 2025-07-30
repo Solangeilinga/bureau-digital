@@ -3,18 +3,18 @@ import React from 'react';
 const Services = ({ isVisible }) => {
     const services = [
         {
-            title: "Création de mini-sites professionnels",
-            description: "Sites simples, modernes et adaptés à vos besoins (vitrine, CV digital, page de vente…).",
+            title: "Création de sites web professionnels",
+            description: "Sites modernes, responsives et adaptés à vos besoins (vitrine, CV digital).",
             image: "/assets/images/minisite.png"
         },
         {
-            title: "Gestion de communauté",
-            description: "Animation de comptes Instagram, TikTok ou Facebook : réponse aux commentaires, planification, modération, stratégie de contenu.",
+            title: "Gestion et animation de communautés en ligne",
+            description: "Modération, fidélisation sur les réseaux sociaux, planification, modération, stratégie de contenu.",
             image: "/assets/images/community.png"
         },
         {
-            title: "Stratégie & Planification Réseaux Sociaux",
-            description: "Calendrier éditorial personnalisé, planification des publications, stratégie marketing.",
+            title: "Branding et communication digitale",
+            description: "Développement de l’image de marque, et planification éditoriale.",
             image: "/assets/images/design.png"
         },
         {
