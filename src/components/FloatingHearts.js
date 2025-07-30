@@ -6,7 +6,7 @@ const FloatingHearts = () => (
         {[...Array(8)].map((_, i) => (
             <Heart
                 key={i}
-                className={`absolute text-pink-200 animate-bounce opacity-20`}
+                className="absolute text-indigo-200 animate-bounce opacity-20"
                 style={{
                     left: `${Math.random() * 100}%`,
                     top: `${Math.random() * 100}%`,

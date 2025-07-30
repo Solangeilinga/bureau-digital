@@ -14,7 +14,7 @@ const Services = ({ isVisible }) => {
         },
         {
             title: "Stratégie & Planification Réseaux Sociaux",
-            description: "Calendrier éditorial personnalisé, planification des publications,stratégie marketing",
+            description: "Calendrier éditorial personnalisé, planification des publications, stratégie marketing.",
             image: "/assets/images/design.png"
         },
         {
@@ -25,20 +25,29 @@ const Services = ({ isVisible }) => {
     ];
 
     return (
-        <section id="services" className={`py-20 bg-gradient-to-br from-pink-50 to-purple-50 transform transition-all duration-1000 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'}`}>
+        <section
+            id="services"
+            className={`py-20 bg-gradient-to-br from-slate-50 to-slate-100 transform transition-all duration-1000 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'
+                }`}
+        >
             <div className="max-w-6xl mx-auto px-4">
                 <div className="text-center mb-16">
-                    <h2 className="text-4xl font-bold text-pink-600 mb-4">Nos Services</h2>
+                    <h2 className="text-4xl font-bold text-indigo-700 mb-4">Nos Services</h2>
                     <p className="text-lg text-gray-600">Des solutions créatives pour tous vos besoins digitaux</p>
                 </div>
+
                 <div className="grid md:grid-cols-2 lg:grid-cols-2 gap-8">
                     {services.map((service, index) => (
                         <div
                             key={index}
-                            className="group bg-white rounded-3xl p-8 shadow-lg hover:shadow-2xl transform hover:scale-105 transition-all duration-500 border border-pink-100 hover:border-pink-300"
+                            className="group bg-white rounded-3xl p-8 shadow-lg hover:shadow-2xl transform hover:scale-105 transition-all duration-500 border border-indigo-100 hover:border-indigo-300"
                         >
-                            <img src={service.image} alt={service.title} className="w-full h-48 object-cover rounded-2xl mb-6" />
-                            <h3 className="text-xl font-bold text-pink-600 mb-4 group-hover:text-pink-700 transition-colors">
+                            <img
+                                src={service.image}
+                                alt={service.title}
+                                className="w-full h-48 object-cover rounded-2xl mb-6"
+                            />
+                            <h3 className="text-xl font-bold text-indigo-600 mb-4 group-hover:text-indigo-700 transition-colors">
                                 {service.title}
                             </h3>
                             <p className="text-gray-700 leading-relaxed">{service.description}</p>

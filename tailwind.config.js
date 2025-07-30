@@ -30,7 +30,13 @@ module.exports = {
           700: '#be123c',
           800: '#9f1239',
           900: '#881337',
-        }
+        },
+        bleuNuit: '#0F1C2E',
+        bleuClair: '#4E8FFF',
+        blancCasse: '#F9FAFC',
+        orangeCorail: '#FF6B4A',
+        grisClair: '#E6EAF0',
+
       },
       animation: {
         'fade-in': 'fadeIn 0.5s ease-in-out',
