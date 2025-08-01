@@ -42,7 +42,7 @@ const Contact = ({ isVisible }) => (
                 </p>
                 <div className="grid grid-cols-2 sm:grid-cols-4 gap-4 justify-items-center">
                     <a
-                        href="mailto:e47071012@gmail.com"
+                        href="mailto:sbureaudigital@gmail.com"
                         className="flex items-center space-x-2 bg-white bg-opacity-20 hover:bg-opacity-30 px-6 py-3 rounded-full transition-all duration-300 hover:scale-105"
                     >
                         <Mail className="w-5 h-5" />
