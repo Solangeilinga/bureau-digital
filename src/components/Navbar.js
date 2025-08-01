@@ -20,7 +20,7 @@ const Navbar = () => {
                     <div className="relative group">
                         <div className="absolute inset-0 bg-indigo-400 rounded-full blur-md opacity-50 group-hover:scale-110 transition-transform duration-500"></div>
                         <img
-                            src="logo.jpg"
+                            src="logo.png"
                             alt="Logo"
                             className="relative w-10 h-10 rounded-full border-2 border-white shadow-lg transform group-hover:scale-110 group-hover:rotate-3 transition-all duration-500"
                         />
