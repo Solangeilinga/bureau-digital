@@ -1,5 +1,6 @@
 import React from 'react';
 import { MessageCircle, Mail, Facebook, Instagram } from 'lucide-react';
+import { FaTiktok } from "react-icons/fa";
 
 const Contact = ({ isVisible }) => (
     <section
@@ -53,7 +54,7 @@ const Contact = ({ isVisible }) => (
                         rel="noopener noreferrer"
                         className="flex items-center space-x-2 bg-white bg-opacity-20 hover:bg-opacity-30 px-6 py-3 rounded-full transition-all duration-300 hover:scale-105"
                     >
-                        <span>🎵</span>
+                        <span><FaTiktok size={20} /></span>
                         <span>TikTok</span>
                     </a>
                     <a
