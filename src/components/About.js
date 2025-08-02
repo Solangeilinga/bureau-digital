@@ -1,5 +1,5 @@
 import React from 'react';
-import { Heart, Palette, BookOpen, Users } from 'lucide-react';
+import { Heart, Palette, Globe, Users } from 'lucide-react';
 
 const About = ({ isVisible }) => (
     <section
@@ -30,7 +30,7 @@ const About = ({ isVisible }) => (
                     {[
                         { icon: Users, text: 'Des services personnalisés en community management' },
                         { icon: Palette, text: 'Stratégie & Planification Réseaux Sociaux' },
-                        { icon: BookOpen, text: 'Des contenus utiles : tutoriels, e-books, fiches pratiques' }
+                        { icon: Globe, text: 'La création de sites web modernes, adaptés à vos besoins' }
                     ].map((item, index) => (
                         <div
                             key={index}
