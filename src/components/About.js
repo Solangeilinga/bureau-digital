@@ -29,8 +29,8 @@ const About = ({ isVisible }) => (
                 <div className="grid md:grid-cols-3 gap-6">
                     {[
                         { icon: Users, text: 'Des services personnalisés en community management' },
-                        { icon: Palette, text: 'Stratégie & Planification Réseaux Sociaux' },
-                        { icon: Globe, text: 'La création de sites web modernes, adaptés à vos besoins' }
+                        { icon: Globe, text: 'La création de sites web modernes, adaptés à vos besoins' },
+                        { icon: Palette, text: 'Stratégie & Planification Réseaux Sociaux' }
                     ].map((item, index) => (
                         <div
                             key={index}
